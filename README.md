@@ -23,6 +23,7 @@ FlipWear is a simple e-commerce store application built with Django and Python a
 
 ## Project Structure
 
+```
 CodeAlpha_SimpleEcommerceStore/
 ├── codealpha_ecommerce_store/ # Django project directory
 │ ├── settings.py
@@ -41,6 +42,7 @@ CodeAlpha_SimpleEcommerceStore/
 ├── manage.py
 ├── README.md
 └── requirements.txt
+```
 
 
 ## Setup and Run Locally
@@ -84,13 +86,25 @@ CodeAlpha_SimpleEcommerceStore/
 7.  Open your browser and navigate to `http://127.0.0.1:8000/`.
     *   Admin panel: `http://127.0.0.1:8000/admin/`
 
-## Screenshots (Optional but Recommended)
+## Screenshots 
 
-(Consider adding 2-3 key screenshots of your application, e.g., product list, cart, a product detail page. You can embed them in the README if you upload them to the repo or link to them if hosted elsewhere.)
+![1](https://github.com/user-attachments/assets/9b738c0c-8c16-4443-9be0-44fd150bf262)
 
-## Live Demo (Optional)
+![2](https://github.com/user-attachments/assets/930c1de5-9538-4f0b-bd5a-64fdb300467a)
 
-*   **Live URL:** [e.g., `https://github.com/diceflip/CodeAlpha_SimpleEcommerceStore`](NOT YET ADDED)
+![3](https://github.com/user-attachments/assets/f2120f23-633d-4d16-92a2-f9da0d27d22b)
+
+![4](https://github.com/user-attachments/assets/138d1776-0265-48c1-948c-3dee13203f81)
+
+![5](https://github.com/user-attachments/assets/d518cc00-5210-43c4-8101-6b63ca286ae7)
+
+![6](https://github.com/user-attachments/assets/79ec939c-8897-4268-8166-16d58b645840)
+
+![7](https://github.com/user-attachments/assets/3456e240-ad8c-4f05-8321-df829242eb41)
+
+## Live Demo (SOON)
+
+*   **Live URL:** - (NOT YET ADDED)
 
 ## Author
 
