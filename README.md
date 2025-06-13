@@ -95,6 +95,6 @@ CodeAlpha_SimpleEcommerceStore/
 ## Author
 
 *   Muhammed Basil
-*   [LinkedIn profile](https://www.linkedin.com/in/muhammed-basil-a83443317/)]
+*   [LinkedIn profile](https://www.linkedin.com/in/muhammed-basil-a83443317/)
 *   [GitHub profile](https://github.com/diceflip)
 
