@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}My E-commerce Store{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <nav>
+        <a href="{% url 'product_list' %}">Home</a> |
+        <a href="{% url 'view_cart' %}">Cart (<span id="cart-total">0</span>)</a> |
+        {% if user.is_authenticated %}
+            <span>Hello, {{ user.username }}!</span> |
+            <a href="{% url 'order_history' %}">My Orders</a> |
+            {# This is the new Logout Form #}
+            <form id="logout-form" method="post" action="{% url 'logout' %}" style="display: inline; margin: 0; padding: 0;">
+                {% csrf_token %}
+                <button type="submit"  >
+                    Logout
+                </button>
+            </form>
+            {% if user.is_staff %}
+            | <a href="{% url 'admin:index' %}">Admin</a>
+            {% endif %}
+        {% else %}
+            <a href="{% url 'login' %}">Login</a> |
+            <a href="{% url 'register' %}">Register</a>
+        {% endif %}
+    </nav>
+    <hr>
+    <div class="container">
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        {% block content %}
+        {% endblock %}
+    </div>
+    <script src="{% static 'js/cart.js' %}"></script> <!-- Create cart.js later -->
+    {% block extra_scripts %}{% endblock %}
+</body>
+</html>
