@@ -104,7 +104,7 @@ CodeAlpha_SimpleEcommerceStore/
 
 ## Live Demo (SOON)
 
-*   **Live URL:** - (NOT YET ADDED)
+*   **Live URL:** - [DEMO LINK](https://diceflip.pythonanywhere.com/)
 
 ## Author
 
