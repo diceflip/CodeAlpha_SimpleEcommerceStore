@@ -13,7 +13,11 @@ FlipWear is a simple e-commerce store application built with Django and Python a
 *   Order History for authenticated users
 *   Admin panel for managing products and orders
 *   Basic responsive design for improved viewing on different devices.
+*   
+## Live Demo
 
+*   **Live URL:** - [DEMO LINK](https://diceflip.pythonanywhere.com/)
+  
 ## Tech Stack
 
 *   **Backend:** Python, Django
@@ -102,9 +106,7 @@ CodeAlpha_SimpleEcommerceStore/
 
 ![7](https://github.com/user-attachments/assets/3456e240-ad8c-4f05-8321-df829242eb41)
 
-## Live Demo (SOON)
 
-*   **Live URL:** - [DEMO LINK](https://diceflip.pythonanywhere.com/)
 
 ## Author
 
